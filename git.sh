@@ -6,7 +6,7 @@ read input
 
 git commit -m "$input"
 
-git push -u origin master
+git push -fu origin master
 
 echo "git push Done :D"
 
