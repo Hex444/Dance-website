@@ -3,7 +3,7 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'cascasia code', 'Ubuntu', sans-serif;
 }
 #navbar {
     background-color: rgb(53, 53, 53);
@@ -26,13 +26,27 @@
     align-items: center;
 }
 #introsection {
+    font-family: 'ubuntu', 'sans-serif';
+    font-size: 35px;
+    flex-direction: column;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: center/cover no-repeat url('/static/bg.avif');
     height: 300px;
     background-color: aliceblue;
+    padding-bottom: 40px;
+}
+#introsection div.small{
+    font-size: 1rem;
 }
 #sponsorsection {
     height: 300px;
     background-color: antiquewhite;
+}
+#sponsorsection h3{
+    text-align: center;
 }
 #footer {
     background-color: grey;
