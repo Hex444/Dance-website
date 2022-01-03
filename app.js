@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 
-const app = expresss();
+const app = express();
 const port = 8000;
 
 
@@ -18,7 +18,6 @@ app.get('/', (req, res)=>{
     const params = {}
     res.status(200).render('index.pug', params);
 })
-
 
 
 
