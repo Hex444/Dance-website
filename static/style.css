@@ -1,3 +1,4 @@
+/* css resets and important stuff */
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&family=Readex+Pro:wght@600&family=Ubuntu&display=swap');
 
 * {
@@ -5,6 +6,10 @@
     margin: 0px;
     font-family: 'cascasia code', 'Ubuntu', sans-serif;
 }
+
+
+
+/* navbar */
 #navbar {
     background-color: rgb(53, 53, 53);
     padding: 30px 5px;
@@ -19,12 +24,17 @@
     color: white;
     font-size: 1.3rem; 
 }
+#navbar li a:hover {
+    color: rgb(161, 161, 161);
+}
 #navbar ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
+
+/* introsection */
 #introsection {
     font-family: 'ubuntu', 'sans-serif';
     font-size: 35px;
@@ -41,13 +51,38 @@
 #introsection div.small{
     font-size: 1rem;
 }
+
+
+/* sponsorsection */
 #sponsorsection {
     height: 300px;
     background-color: antiquewhite;
 }
-#sponsorsection h3{
+#sponsorsection h2{
     text-align: center;
+    padding-top: 23px;
 }
+
+
+/* missionsection */
+#missionsection {
+    height: 400px;
+}
+#missionsection h2{
+    text-align: center;
+    padding-top: 23px;
+}
+.card {
+    border: 2px solid black;
+    width: 29%;
+    margin: 5px 30px;
+    padding: 5px 5px;
+    height: 285px;
+    display: inline-block;
+}
+
+
+/* footer */
 #footer {
     background-color: grey;
     height: 300px;
