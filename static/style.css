@@ -7,7 +7,18 @@
     font-family: 'cascasia code', 'Ubuntu', sans-serif;
 }
 
-
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+}
+#logo img{
+    height: 50px;
+    filter: invert();
+    display: inline-block;
+    position: sticky;
+}
 
 /* navbar */
 #navbar {
@@ -30,7 +41,7 @@
 #navbar ul {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
@@ -66,7 +77,7 @@
 
 /* missionsection */
 #missionsection {
-    height: 400px;
+    height: 550px;
     background-color: #b06666;
 }
 #missionsection h2{
@@ -78,12 +89,13 @@
     width: 29%;
     margin: 5px 30px;
     padding: 5px 5px;
-    height: 300px;
+    height: 430px;
     display: inline-block;
     text-align: center;
 }
 .card p {
-    color: rgb(248, 248, 248);
+    color: rgb(117, 0, 251);
+    text-shadow: 2px 2px 1px red;
     font-size: 25px;
 }
 
